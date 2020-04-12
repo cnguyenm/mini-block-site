@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blocksite index</title>
+    <link rel="stylesheet" href="bootstrap//bootstrap.min.css">
+    <script src="bootstrap/jquery-3.5.0.min.js"></script> 
+    <script src="bootstrap/popper.min.js"></script>
+    <script src="bootstrap/bootstrap.min.js"></script>
+</head>
+
+<body style="background-color: black; color:white">
+    <div class="container">
+        <div class="col-lg-8" style="margin-top:20px">
+            
+            <!-- add block-site -->
+            Add blocksite
+            <h4 id="info_field"></h4>
+            <div class="form-group form-inline">           
+                <input id="url_input" type="text" class="form-control mr-1" >
+                <button id="add_site_btn" class="btn btn-secondary btn-sm" type="button">+</button>
+            </div>
+
+            <!-- remove from block_list -->
+            BLOCKED SITES
+            <table class="table table-dark table-striped table-hover">
+                <tbody id="block_list_body">
+                    <tr>
+                        <td><img class="img-thumbnail" src="https://s2.googleusercontent.com/s2/favicons?domain_url=mangapark.net"></td>
+                        <td>http://mangapark.net</td>
+                        <td><button type="button" class="btn btn-sm btn-danger">-</button></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        <!--end col-lg-8-->
+        </div>
+    </div>
+    <script src="js/editlist.js"></script>
+</body>
+</html>
+
+

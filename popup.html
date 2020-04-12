@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>popup title</title>
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="bootstrap//bootstrap.min.css">
+    <link rel="stylesheet" href="css/popup.css">
+
+</head>
+<body>
+    
+    <!-- favicon, url of cur_site-->
+    <div class="jumbotron jumbotron-fluid">
+        <img alt="favico" id="favico_img" src="" class="mx-auto d-block img-thumbnail">
+        <hr style="max-width: 50%;"/>
+        <p style="text-align: center;" id="host_name">url of current site</p>
+    </div>
+      
+    <!-- button to block cur_site -->
+    <div style="width:100%">
+        <div style="text-align: center; margin-bottom: 10px;">
+            <button id="block_btn" type="button" class="btn btn-danger btn-lg">
+                Block this site
+            </button>
+        </div>
+    </div>
+    
+    <!-- edit block_site_list -->
+    <div class="width:100%">
+        <div style="text-align: center; margin-bottom: 10px;">
+            <button id="edit_list_btn" type="button" class="btn btn-outline-dark btn-sm">Edit block-site list</button>
+        </div>
+    </div>
+        
+    <script src="js/popup.js"></script>
+</body>
+</html>
+
