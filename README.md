@@ -1,6 +1,6 @@
 
-# Mini Blocksite 
-Mini blocksite is a chrome extension. It has essential function of a blocksite, helps increase productivity.
+# Mini Block-site 
+Mini block-site is a chrome extension. It has essential function of a blocksite, helps increase productivity.
 
 
 ## functionality
